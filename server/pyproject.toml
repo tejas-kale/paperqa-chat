@@ -6,10 +6,12 @@ readme = "README.md"
 requires-python = "~=3.11"
 dependencies = [
     "flask",
-    "paper-qa>=5.0",
+    "langchain",
+    "langchain-google-genai",
+    "pypdf",
+    "faiss-cpu",
+    "tiktoken",
     "python-dotenv",
     "flask-cors",
-    "gunicorn",
-    "lancedb",
-    "openai"
+    "gunicorn"
 ]
