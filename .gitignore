@@ -3,6 +3,7 @@ __pycache__/
 *.pyc
 .env
 .venv
+uv.lock
 
 # Node
 node_modules/
@@ -11,3 +12,8 @@ dist/
 
 # OS
 .DS_Store
+
+# Project-specific
+evals/
+projects/
+resources/
